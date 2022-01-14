@@ -15,8 +15,8 @@ public class TestClass {
 	
 	@BeforeTest
 	public void initBrowser() {
-		ChromeOptions options = new ChromeOptions();
-		driver=new ChromeDriver(options);	
+		System.setProperty("webdriver.chrome.driver", "E://Automation//Test//Driver//chromedriver.exe");
+		driver=new ChromeDriver();	
 	}
 	
 	@Test
