@@ -14,14 +14,13 @@ public class TestClass {
 	
 	@BeforeTest
 	public void initBrowser() {
-		/*System.setProperty("webdriver.chrome.driver", "E://Automation//Test//Driver//chromedriver.exe");
-		driver=new ChromeDriver();	*/
+		System.setProperty("webdriver.chrome.driver", "E://Automation//Test//Driver//chromedriver.exe");
+		driver=new ChromeDriver();	
 	}
 	
 	@Test
 	public void launchUrl() {
-		//driver.get("https://www.google.com/");
-		System.out.println("Test");
+		driver.get("https://www.google.com/");
 	}
 
 }
