@@ -4,7 +4,7 @@
  
   <test name="TestJenkins">    
     <classes>
-       <class name="com.qa.TestClass"/>
+       <class name="src.com.qa.TestClass"/>
     </classes>
      
   </test>
